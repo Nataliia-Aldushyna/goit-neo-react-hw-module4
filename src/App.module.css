@@ -1,0 +1,24 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+}
+
+.app header {
+  margin-bottom: 20px;
+}
+
+.app ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.app button {
+  margin-top: 20px;
+}
