@@ -1,20 +1,24 @@
 .gallery {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
-    padding: 20px;
+    margin: 0; 
+    padding: 0; 
     list-style: none;
   }
   
   .item {
-    flex-basis: calc(33.333% - 15px);
-    border-radius: 8px;
+    flex-basis: calc(20%); 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
     overflow: hidden;
   }
   
   .image {
     width: 100%;
-    height: auto;
+    height: 100%; 
+    object-fit: cover; 
     cursor: pointer;
     transition: transform 0.3s;
   }
