@@ -22,6 +22,8 @@ export default function SearchBar({ onSubmit }) {
       <form onSubmit={handleSubmit} className={styles.form}>
         <input
           type="text"
+          autoComplete="off"
+          autoFocus
           placeholder="Search images and photos"
           value={query}
           onChange={handleChange}
